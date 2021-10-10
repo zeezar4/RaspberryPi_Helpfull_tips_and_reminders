@@ -1,0 +1,31 @@
+****WARNING***** -These instructions will not work unless you have SSH enabled on you Pi beforehand!!!
+
+Hey all, 
+this was an issue I had when I only had SSH (secure shell), a laptop and Ethernet cable. I had no idea how to see what was going on my Pi desktop one day out on the town.
+So rocking a Windows 10 craptop*, an ethernet cable and my trusty Pi 3b+ I looked for an answer.
+
+Sparring you the hour of research i had to go through let me just give you a little cheat sheat. 
+
+what you need:  
+- download PUTTY and VNC on you laptop
+-the name of your pi (if its new then its probrably just gonna be "pi")
+-ethernet connection between your pi and computer
+
+What to do:
+1. establish SSH connection through putty (port 22) by typing in your Pi's name and then clicking open
+2. log into your pi throught the SSH connection and type in " " into the terminal
+3. once you are at the settings screen go to the interface seection and enable VNC on boot.
+4. Reboot your Pi and re-establish SSH connection.
+5. type "vncserver" in the terminal and it should pull out all the info you need to establish a connection with your laptop.
+
+to set up the vnc connection just type in the VNC server IP and connect to screenshare and from there you can connect your Pi to the wifi and then establish a vnc connection
+that way if you wanted to get rid of the Ethernet cable. 
+
+
+
+
+
+
+
+
+*Craptop- only 28 gb of disk space, 4 gig of memmory and an i5 processor 
