@@ -13,7 +13,7 @@ what you need:
 
 What to do:
 1. establish SSH connection through putty (port 22) by typing in your Pi's name and then clicking open
-2. log into your pi throught the SSH connection and type in " " into the terminal
+2. log into your pi throught the SSH connection and type in "sudo raspi-config" into the terminal
 3. once you are at the settings screen go to the interface seection and enable VNC on boot.
 4. Reboot your Pi and re-establish SSH connection.
 5. type "vncserver" in the terminal and it should pull out all the info you need to establish a connection with your laptop.
